@@ -9,7 +9,7 @@
         Chacha Tour's booking system
     """,
 
-    'author': "Chachatour",
+    'author': "Laziev M.",
     'website': "http://chachatour.ge",
 
     # Categories can be used to filter modules in modules listing
