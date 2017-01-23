@@ -1,16 +1,15 @@
-
 # -*- coding: utf-8 -*-
 {
-    'name': "Chacha Tours",
+    'name': 'Chacha Tours',
 
-    'summary': """Chacha Tours""",
+    'summary': 'Chacha Tours',
 
     'description': """
         Chacha Tour's booking system
     """,
 
-    'author': "Laziev M.",
-    'website': "http://chachatour.ge",
+    'author': 'Laziev M.',
+    'website': 'http://chachatour.ge',
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/openerp/addons/base/module/module_data.xml
