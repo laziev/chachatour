@@ -2,8 +2,10 @@
 
 from openerp import models, fields
 
-class Course(models.Model):
-    _name = 'openacademy.course'
-
-    name = fields.Char(string="Title", required=True)
-    description = fields.Text()
+class Tours(models.Model):
+    """Tours"""
+	
+   _name = 'chacha.tour'
+   name = fields.Char('Description', required=True)
+   is_done = fields.Boolean('Done?')
+   active = fields.Boolean('Active?', default=True)

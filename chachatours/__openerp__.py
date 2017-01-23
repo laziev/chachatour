@@ -1,29 +1,29 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'Chacha Tours',
-
-    'summary': 'Chacha Tours',
-
+    'name': 'Tours',
+    'version': '1.0',
+    'author': "Laziev M.",
+    'maintainer': 'Laziev M.',
+    'website': 'http://chachatour.ge',
+    'license': 'AGPL-3',
+    'category': 'Customer Relationship Management',
+    'summary': 'Travel Management',
     'description': """
-        Chacha Tour's booking system
+        Chacha Tour's travel booking system
     """,
 
-    'author': 'Laziev M.',
-    'website': 'http://chachatour.ge',
+    'depends': ['mail'],
+	
+   'external_dependencies': {},
+    'data': [
 
-    # Categories can be used to filter modules in modules listing
-    # Check https://github.com/odoo/odoo/blob/master/openerp/addons/base/module/module_data.xml
-    # for the full list
-    'category': 'Travel',
-    'version': '0.1',
-
-    # any module necessary for this one to work correctly
-    'depends': ['base'],
-
+    ],
+    'installable': True,
+	'application': True,
+}
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
-        'templates.xml',
+ 
     ],
     
 }
