@@ -1,2 +1,2 @@
 # chachatour
-odoo 8.0 module for chachatour
+learning and testing modules for tour booking
